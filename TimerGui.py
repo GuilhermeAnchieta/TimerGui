@@ -1,6 +1,7 @@
 import pyautogui as py
 from time import sleep
 
+
 time = 0
 while True:
     ask = py.confirm(text='→ O que você deseja fazer?\n\nAtenção: só é possível fazer um novo agendamento\n'
